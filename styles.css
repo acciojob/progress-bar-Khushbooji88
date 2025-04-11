@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.circle{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: gray;
+	
+}
+
+.circle active{
+	background-color: green;
+}
+
+.progress-line{
+	height: 5px;
+	background-color: green;
+	width: 0;
+	transition: width 0.5s;
+}
